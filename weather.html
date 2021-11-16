@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Api</title>
+    <script src="script2.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body style="background-color: rgb(206, 229, 236)">
+    <span
+      style="
+        color: rgb(233, 200, 150);
+        font-size: 50px;
+        background-color: rgb(103, 172, 204);
+        border: 1px solid rgb(160, 218, 160);
+        padding: 0.5px;
+        margin: 10px;
+      "
+    >
+      How's the weather?
+      <img src="8czn5BL9i.png" width="60px" style="float: left"
+    /></span>
+    <hr />
+    <br />
+    <input
+      id="searchInput"
+      type="text"
+      placeholder="Enter City's Name"
+      value="vancouver"
+    />
+    <button id="searchButton" type="submit">Go Search!</button>
+    <br />
+    <h2>Information:</h2>
+
+    <ul></ul>
+    <li>City Name:</li>
+    <p id="city"></p>
+    <li>Weather Statement:</li>
+    <p id="weather"></p>
+    <li>Temperature:</li>
+    <p id="temperature"></p>
+    <li>Feel Like:</li>
+    <p id="feellike"></p>
+  </body>
+</html>
+<!-- 
+
+Midterm Project			                                                
+Objective: (a) Create a Weather App with HTML,CSS and Javascript. Create a UI for a Weather App (webSite).
+Use the Fetch API to fetch the data from Open Weather API (https://home.openweathermap.org/users/sign_in)
+https://openweathermap.org/current
+Your app must show Vancouver's  weather as default, but the user can be able to search for the weather of another city.
+If the city is not found, a pop up should appear informing the user that it was not found.
+The information that the app should show is Name of the city, currently weather, Feel Like, etc.
+
+Objective: Delivery
+Create the github repository
+Push your code
+Send the URL of your repository at google classroom.
+Presentation day:  November 15th, Show your application working and explain the main part of your code. Presentation time 10min. -->
